@@ -11,3 +11,63 @@ body {
     overflow-x: hidden;
     margin: 0;
 }
+
+.container {
+    margin: 50ox;
+}
+
+.content {
+    margin: 100px;
+    width: auto;
+    height: auto;
+}
+
+img {
+    width: 200vh;
+    background-position: center;
+}
+
+.circle-container {
+    background-color: black;
+    border-radius: 50%;
+    padding: 50px;
+    margin-right: 200vh;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    position: relative;
+    z-index: -1;
+}
+
+.circle {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-left: -50px;
+    padding: 20px;
+}
+
+#close {
+    padding: 10px, 30px;
+    color: white;
+    background-color: black;
+    border: black;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#open {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: black;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+nav {
+    background-color: black;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    margin-right: 180vh;
+}
